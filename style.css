@@ -1,0 +1,74 @@
+body{
+  font-family: Jost;
+  background-image: url(https://i.imgur.com/tuGKADN.jpeg);
+  background-size: 2875px 4070px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+
+h1,h2,h3{
+  font-family: 'Roboto Condensed',Serif;
+  color: rgb(10,10,10);
+}
+
+.inline-list > li{
+  display: inline-block;
+  padding: 0px 2px;
+}
+
+ul{
+  padding:0;
+}
+
+a{
+  text-decoration:none;
+  color: rgba(255,150,0,0.7);
+  font-size: 18px;
+  font-weight:bold;
+  transition: 0.3s;
+}
+
+a:hover{
+  color: rgba(0,0,255,0.5);
+  }
+
+#profile-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  }
+
+.card{
+  background-color: white;
+  padding: 25px;
+  /* width: 750px; */
+  margin: 25px auto;
+  border-radius: 30px;
+  border: 1px solid #EAEAEA;
+}
+
+p{
+  font-weight: 100;
+  }
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
